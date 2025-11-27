@@ -1,9 +1,7 @@
 # CIFAKE: Explainable Deep Learning for Classifying Real and AI-Generated Images Using CNN and 3D-CNN
 
 ## 📘 Abstract
-Artificial intelligence has advanced to a point where synthetic images created by GANs and diffusion models are extremely realistic, making real vs fake image detection challenging.  
-This paper evaluates two models — **CNN** and **3D-CNN** — on the **CIFAKE dataset** (120,000 balanced images).  
-Explainable AI methods such as **LIME** and **Grad-CAM** are used for transparency.
+Artificial intelligence has reached a level where distinguishing real images from synthetic ones is increasingly difficult. This creates risks in areas such as misinformation, digital security, and content authenticity. In this study, we address this problem by applying deep learning to the CIFAKE dataset, which contains a balanced collection of real and AIgenerated images. Two models were developed: a Convolutional Neural Network (CNN) for extracting spatial features, and a three-dimensional CNN (3D-CNN) for capturing spatiotemporal patterns. The dataset was processed with augmentation and preprocessing to improve model generalization. Both models achieved strong results. The CNN obtained 95.69% accuracy, 93.67% precision, 98.00% recall, and an F1-score of 95.79%. The 3D-CNN outperformed it, achieving 96.62% accuracy, 95.97% precision, 97.33% recall, and an F1-score of 96.64%. To improve interpretability, explainable AI methods were applied. LIME provided local feature explanations, while Grad-CAM produced visual heatmaps of the most influential regions in the images. Together, these methods not only improved detection accuracy but also added transparency to the decision-making process. The results highlight the importance of combining robust classification models with explainable techniques for reliable detection of AIgenerated images.
 
 **Results:**  
 - CNN → **95.69% accuracy**, **98.00% recall**  
